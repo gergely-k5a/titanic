@@ -1,0 +1,49 @@
+{
+  "attributeName": "No of Siblings or Spouses on Board",
+  "attributeType": "Numerical",
+  "numberOfDistinctValues": 10,
+  "topTenValuesAndCount": [
+    {
+      "value": "0.00-0.80",
+      "count": 615
+    },
+    {
+      "value": "0.80-1.60",
+      "count": 223
+    },
+    {
+      "value": "1.60-2.40",
+      "count": 35
+    },
+    {
+      "value": "2.40-3.20",
+      "count": 15
+    },
+    {
+      "value": "3.20-4.00",
+      "count": 19
+    },
+    {
+      "value": "4.00-4.80",
+      "count": 0
+    },
+    {
+      "value": "4.80-5.60",
+      "count": 5
+    },
+    {
+      "value": "5.60-6.40",
+      "count": 0
+    },
+    {
+      "value": "6.40-7.20",
+      "count": 0
+    },
+    {
+      "value": "7.20-8.00",
+      "count": 4
+    }
+  ],
+  "predictionType": "REGRESSION",
+  "binominal": false
+}

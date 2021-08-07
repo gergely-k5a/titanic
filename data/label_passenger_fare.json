@@ -1,0 +1,49 @@
+{
+  "attributeName": "Passenger Fare",
+  "attributeType": "Numerical",
+  "numberOfDistinctValues": 10,
+  "topTenValuesAndCount": [
+    {
+      "value": "0.00-51.23",
+      "count": 742
+    },
+    {
+      "value": "51.23-102.47",
+      "count": 114
+    },
+    {
+      "value": "102.47-153.70",
+      "count": 32
+    },
+    {
+      "value": "153.70-204.93",
+      "count": 3
+    },
+    {
+      "value": "204.93-256.16",
+      "count": 13
+    },
+    {
+      "value": "256.16-307.40",
+      "count": 10
+    },
+    {
+      "value": "307.40-358.63",
+      "count": 0
+    },
+    {
+      "value": "358.63-409.86",
+      "count": 0
+    },
+    {
+      "value": "409.86-461.10",
+      "count": 0
+    },
+    {
+      "value": "461.10-512.33",
+      "count": 2
+    }
+  ],
+  "predictionType": "REGRESSION",
+  "binominal": false
+}

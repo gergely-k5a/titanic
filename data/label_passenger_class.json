@@ -1,0 +1,21 @@
+{
+  "attributeName": "Passenger Class",
+  "attributeType": "Categorical",
+  "numberOfDistinctValues": 3,
+  "topTenValuesAndCount": [
+    {
+      "value": "Third",
+      "count": 491
+    },
+    {
+      "value": "First",
+      "count": 241
+    },
+    {
+      "value": "Second",
+      "count": 184
+    }
+  ],
+  "predictionType": "CLASSIFICATION",
+  "binominal": false
+}

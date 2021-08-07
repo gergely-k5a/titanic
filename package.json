@@ -1,0 +1,28 @@
+{
+  "name": "titanic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergely-k5a/titanic.git"
+  },
+  "author": "Gergely K5a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gergely-k5a/titanic/issues"
+  },
+  "homepage": "https://github.com/gergely-k5a/titanic#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

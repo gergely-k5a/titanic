@@ -1,0 +1,49 @@
+{
+  "attributeName": "Age",
+  "attributeType": "Numerical",
+  "numberOfDistinctValues": 10,
+  "topTenValuesAndCount": [
+    {
+      "value": "0.17-8.15",
+      "count": 51
+    },
+    {
+      "value": "8.15-16.13",
+      "count": 47
+    },
+    {
+      "value": "16.13-24.12",
+      "count": 197
+    },
+    {
+      "value": "24.12-32.10",
+      "count": 342
+    },
+    {
+      "value": "32.10-40.08",
+      "count": 117
+    },
+    {
+      "value": "40.08-48.07",
+      "count": 74
+    },
+    {
+      "value": "48.07-56.05",
+      "count": 44
+    },
+    {
+      "value": "56.05-64.03",
+      "count": 33
+    },
+    {
+      "value": "64.03-72.02",
+      "count": 8
+    },
+    {
+      "value": "72.02-80.00",
+      "count": 3
+    }
+  ],
+  "predictionType": "REGRESSION",
+  "binominal": false
+}

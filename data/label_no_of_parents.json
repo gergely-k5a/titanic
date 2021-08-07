@@ -1,0 +1,49 @@
+{
+  "attributeName": "No of Parents or Children on Board",
+  "attributeType": "Numerical",
+  "numberOfDistinctValues": 10,
+  "topTenValuesAndCount": [
+    {
+      "value": "0.00-0.90",
+      "count": 696
+    },
+    {
+      "value": "0.90-1.80",
+      "count": 130
+    },
+    {
+      "value": "1.80-2.70",
+      "count": 72
+    },
+    {
+      "value": "2.70-3.60",
+      "count": 5
+    },
+    {
+      "value": "3.60-4.50",
+      "count": 6
+    },
+    {
+      "value": "4.50-5.40",
+      "count": 4
+    },
+    {
+      "value": "5.40-6.30",
+      "count": 2
+    },
+    {
+      "value": "6.30-7.20",
+      "count": 0
+    },
+    {
+      "value": "7.20-8.10",
+      "count": 0
+    },
+    {
+      "value": "8.10-9.00",
+      "count": 1
+    }
+  ],
+  "predictionType": "REGRESSION",
+  "binominal": false
+}

@@ -1,0 +1,19 @@
+{
+  "attributeName": "Sex",
+  "attributeType": "Categorical",
+  "numberOfDistinctValues": 2,
+  "topTenValuesAndCount": [
+    {
+      "value": "Male",
+      "count": 594
+    },
+    {
+      "value": "Female",
+      "count": 322
+    }
+  ],
+  "classOfHighestInterest": "Male",
+  "classOfLowestInterest": "Female",
+  "predictionType": "CLASSIFICATION",
+  "binominal": true
+}

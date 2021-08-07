@@ -1,0 +1,19 @@
+{
+  "attributeName": "Survived",
+  "attributeType": "Categorical",
+  "numberOfDistinctValues": 2,
+  "topTenValuesAndCount": [
+    {
+      "value": "No",
+      "count": 567
+    },
+    {
+      "value": "Yes",
+      "count": 349
+    }
+  ],
+  "classOfHighestInterest": "Yes",
+  "classOfLowestInterest": "No",
+  "predictionType": "CLASSIFICATION",
+  "binominal": true
+}

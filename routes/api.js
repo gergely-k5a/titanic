@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const fs = require('fs');
+const { DATA_PATH } = require('../config');
 
 router.get('/', (req, res) => {
   res.json({
@@ -8,7 +9,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/titanic', (req, res) => {
-  fs.readFile('data/titanic.json', (err, data) => {
+  fs.readFile(`${DATA_PATH}/titanic.json`, (err, data) => {
     // TODO: handle errors
     const result = JSON.parse(data);
     res.send(result);
@@ -16,7 +17,7 @@ router.get('/titanic', (req, res) => {
 });
 
 router.get('/label/:type', (req, res) => {
-  fs.readFile(`data/label_${req.params.type}.json`, (err, data) => {
+  fs.readFile(`${DATA_PATH}/label_${req.params.type}.json`, (err, data) => {
     // TODO: handle errors
     const result = JSON.parse(data);
     res.send(result);

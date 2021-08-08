@@ -10,16 +10,30 @@ router.get('/', (req, res) => {
 
 router.get('/titanic', (req, res) => {
   fs.readFile(`${DATA_PATH}/titanic.json`, (err, data) => {
-    // TODO: handle errors
-    const result = JSON.parse(data);
+    let result;
+
+    try {
+      result = JSON.parse(data);
+    } catch {
+      res.status(500).json({ error: 'Data source is corrupt or missing.' });
+      return;
+    }
+
     res.send(result);
   });
 });
 
 router.get('/label/:type', (req, res) => {
   fs.readFile(`${DATA_PATH}/label_${req.params.type}.json`, (err, data) => {
-    // TODO: handle errors
-    const result = JSON.parse(data);
+    let result;
+
+    try {
+      result = JSON.parse(data);
+    } catch {
+      res.status(500).json({ error: 'Data source is corrupt or missing.' });
+      return;
+    }
+
     res.send(result);
   });
 });

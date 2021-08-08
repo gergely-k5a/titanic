@@ -9,20 +9,24 @@ function App() {
   const [rows, setRows] = useState([]);
 
   useEffect(() => {
-    axios('/api/titanic').then((res) => {
-      const { result } = res.data;
+    axios('/api/titanic')
+      .then((res) => {
+        const { result } = res.data;
 
-      const cols = result.attributes.map((attr) => ({
-        title: attr.name,
-        dataIndex: attr.name,
-        key: attr.name.toLowerCase(),
-      }));
+        const cols = result.attributes.map((attr) => ({
+          title: attr.name,
+          dataIndex: attr.name,
+          key: attr.name.toLowerCase(),
+        }));
 
-      const dataSource = result.rows.map((row, key) => ({ key, ...row }));
+        const dataSource = result.rows.map((row, key) => ({ key, ...row }));
 
-      setColumns(cols);
-      setRows(dataSource);
-    });
+        setColumns(cols);
+        setRows(dataSource);
+      })
+      .catch((err) => {
+        console.log(err.response.data);
+      });
   }, []);
 
   return (

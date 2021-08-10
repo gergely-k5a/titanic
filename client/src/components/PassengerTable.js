@@ -17,6 +17,7 @@ function PassengerTable() {
         setRows(passengerData.rows);
       })
       .catch((err) => {
+        // TODO: add error handling
         console.log(err.response.data);
       });
   }, []);
